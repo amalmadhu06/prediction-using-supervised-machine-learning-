@@ -1,7 +1,7 @@
 # prediction-using-supervised-machine-learning-
 #Here I am trying to make prediction using supervised machine learning 
 
-# Importing libraries 
+#Importing libraries 
 
 import pandas as pd
 import numpy as np
@@ -10,14 +10,14 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 
 
 
-# reading the data from remote link 
+#reading the data from remote link 
 
 url = "http://bit.ly/w-data"   
 data = pd.read_csv(url)
 data.head()
 
 
-# plotting the distribution of scores 
+#plotting the distribution of scores 
 
 data.plot(x = "Hours", y = "Scores", style = "o")
 plt.title("Hours vs Percentage ")
